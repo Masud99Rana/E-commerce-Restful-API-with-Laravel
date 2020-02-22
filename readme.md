@@ -39,7 +39,7 @@ Here are:
 
 ### Features
 
-* Fundamental feature of a Ecommerce System
+* Fundamental feature of an Ecommerce System
 * Stateless authenticaion
 
 **And so much more !!! Explore them by following "[Getting Started](#getting-started)" section.**
@@ -59,11 +59,10 @@ Basic understanding of the technologies that i have mentioned in "[Built With](#
 
 1. Clone the repo
 ```sh
-https://github.com/Masud99Rana/Air-Info-RESTful-API-in-laravel.git
+git clone https://github.com/Masud99Rana/E-commerce-Restful-API-with-Laravel.git
 ```
 2. Run **composer install**
 3. Run **php artisan key:generate**
-4. Run **php artisan migrate --seed**
 
 That's good. Now, you are ready to go. </br>
 If you face any kind of problem to installation this project feel free to inform me.
