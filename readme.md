@@ -18,8 +18,9 @@
 [![Gmail][gmail-shield]][gmail-url]
 -->
 
-# JWT in Lumen
-> **Note:** This repository contains the core code of implementation JSON Web Token (JWT) in Lumen
+# E-Commerce RESTful API in laravel
+> **Note:** This repository contains the core code of an E-commerce Restful API project in a RESTful way with Passport.js authenticaion. ( Mainly, I have practiced here Stateless Authentication with Passport )
+
 [![Made with love by Masud Rana][madewith-shield]][linkedin-url] 
 [![status][status-shield]][linkedin-url] 
 
@@ -28,18 +29,18 @@
 [![Gmail][gmail-shield]][gmail-url]
 
 ## About The Project
-JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties.
-JWT.IO allows to decode, verify and generate JWT. In this project, I have practiced JWT authentication in Lumen.
+RESTful API with Laravel will make the client to server communication easier with HTTP requests. In this project, I have practiced how to develop a real-world, RESTful API with Laravel for a simple Ecommerce System with Passport.js authenticaion. ( Mainly, I have practiced here Stateless Authentication with Passport)
 
 ### Built With
 The major technologies that i have used to build this project.
 Here are:
-* Lumen
+* Laravel
+* Passport.js
 
 ### Features
 
-* Full feature of JWT implemented
-* Stateless Authentication
+* Fundamental feature of a Ecommerce System
+* Stateless authenticaion
 
 **And so much more !!! Explore them by following "[Getting Started](#getting-started)" section.**
 
@@ -58,9 +59,11 @@ Basic understanding of the technologies that i have mentioned in "[Built With](#
 
 1. Clone the repo
 ```sh
-git clone https://github.com/Masud99Rana/E-commerce-Restful-API-with-Laravel.git
+https://github.com/Masud99Rana/Air-Info-RESTful-API-in-laravel.git
 ```
 2. Run **composer install**
+3. Run **php artisan key:generate**
+4. Run **php artisan migrate --seed**
 
 That's good. Now, you are ready to go. </br>
 If you face any kind of problem to installation this project feel free to inform me.
